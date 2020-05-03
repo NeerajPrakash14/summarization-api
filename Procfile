@@ -1,1 +1,1 @@
-web: gunicorn app:flasksummarization
+web: gunicorn app:app
