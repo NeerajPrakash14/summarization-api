@@ -9,7 +9,7 @@ import pandas as pd
 
 
 from flask import Flask,jsonify,request
-import re
+import regex as re
 import nltk
 #import heapq
 
