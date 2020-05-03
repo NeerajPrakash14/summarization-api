@@ -9,6 +9,7 @@ from flask import Flask,jsonify,request
 #import re
 import nltk
 
+nltk.download('punkt')
 
 
 app=Flask(__name__)
