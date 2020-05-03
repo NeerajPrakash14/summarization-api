@@ -10,6 +10,7 @@ from flask import Flask,jsonify,request
 import nltk
 
 nltk.download('punkt')
+nltk.download('stopwords')
 
 
 app=Flask(__name__)
