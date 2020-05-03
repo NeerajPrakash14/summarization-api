@@ -6,7 +6,7 @@
 
 import flask
 from flask import Flask,jsonify,request
-#import re
+import re
 import nltk
 
 nltk.download('punkt')
