@@ -23,13 +23,11 @@ def return_summary():
     
     url="https://www.arcesb.com/resources/edi/"  #request.args.get('document')
     text=""
-    try:
-        page = requests.get(url)
-        soup = BeautifulSoup(page.content, 'html.parser')
-        for i in soup.find_all('p'):
-            text+=i.get_text()
-    except:
-        continue
+    page = requests.get(url)
+    soup = BeautifulSoup(page.content, 'html.parser')
+    for i in soup.find_all('p'):
+        text+=i.get_text()
+
     #article_text=request.args.get('document')
     
     article_text=text
