@@ -65,7 +65,7 @@ def return_summary():
 
     #summary_sentences = heapq.nlargest(4, sentence_scores, key=sentence_scores.get)
     summary_sentences= sorted(sentence_scores.items(), key=lambda x: x[1], reverse=True)
-    summary_sentences =summary_sentences[0:4]
+    summary_sentences =summary_sentences[0:6]
     #summary = ' '.join(summary_sentences)
     ordered_summary=''
     '''
