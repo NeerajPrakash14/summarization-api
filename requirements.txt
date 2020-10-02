@@ -14,3 +14,8 @@ matplotlib>=1.4.3
 pandas>=0.19
 nltk>=3.4.5
 
+suggestion for using the virtual environment for developing such an awesome project
+because as we know that after some time later, these all module's version will become changed
+and we are using here this older version, so it is better to keep these all modules in a virtual environment
+so that, even if its older version become changed to new version, there will be no effect on our project
+
